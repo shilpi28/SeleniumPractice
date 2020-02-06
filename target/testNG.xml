@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite" parallel="tests">
+
+    <test name="Login Page Test">
+        <parameter name="userName" value="shilpi2811@gmail.com"/>
+        <parameter name="password" value="Shilpi28.11"/>
+        <classes>
+            <class name="com.qa.tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
